@@ -12,6 +12,10 @@
       cleanup = "zap";
     };
     enable = true;
+
+    brews = [
+      "mas"
+    ];
     
     casks = [
       "rectangle"
@@ -19,4 +23,10 @@
       "sanesidebuttons"
     ];
   };
+
+  environment.systemPackages = with pkgs; [
+    git
+    jq
+  ];
+
 }
