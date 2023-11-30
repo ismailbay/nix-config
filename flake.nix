@@ -13,16 +13,24 @@
       url = "github:LnL7/nix-darwin/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    nix-index-database = {
+      url = "github:Mic92/nix-index-database";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+
   };
 
   outputs = { self, 
               nixpkgs, 
               home-manager,
               nix-darwin,
+              nix-index-database,
               ...}: {
 
     darwinConfigurations.melamar = nix-darwin.lib.darwinSystem {
       system = "aarch64-darwin";
+
       modules = [ ./machines/melamar/default.nix ];
     };
 

@@ -15,6 +15,8 @@
     
     casks = [
       "rectangle"
+      "monitorcontrol"
+      "sanesidebuttons"
     ];
   };
 }

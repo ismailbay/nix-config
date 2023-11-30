@@ -6,5 +6,6 @@
 * git
 * [homebrew](https://brew.sh) or any other package manager
 
+Set hostname to match the configuration.
 
 
