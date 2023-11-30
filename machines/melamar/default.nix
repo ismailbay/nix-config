@@ -1,7 +1,8 @@
-{ pkgs, ... }:
+{ lib, pkgs, ... }:
 {
 
   services.nix-daemon.enable = true;
+  nixpkgs.config.allowUnfree = lib.mkForce true;
   
   programs.zsh.enable = true;
 
@@ -26,7 +27,16 @@
 
   environment.systemPackages = with pkgs; [
     git
+    vscode
     jq
+    pwgen
+    tmux
+    neofetch
+    neovim
+    ripgrep
+    direnv
+    wget
+    iterm2
   ];
 
 }
