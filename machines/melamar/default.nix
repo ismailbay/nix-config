@@ -20,14 +20,12 @@
     
     casks = [
       "rectangle"
-      "monitorcontrol"
       "sanesidebuttons"
     ];
   };
 
   environment.systemPackages = with pkgs; [
     git
-    vscode
     jq
     pwgen
     tmux
@@ -36,7 +34,14 @@
     ripgrep
     direnv
     wget
+    htop
+    terraform
+
+    # apps with gui
+    monitorcontrol
     iterm2
+    vscode
+
   ];
 
 }
