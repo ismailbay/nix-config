@@ -1,5 +1,6 @@
 { lib, pkgs, ... }:
 {
+  # TODO: make use of home-manager (user, dotfiles, ...)
 
   services.nix-daemon.enable = true;
   nixpkgs.config.allowUnfree = lib.mkForce true;
@@ -41,7 +42,27 @@
     monitorcontrol
     iterm2
     vscode
-
   ];
 
+  system = {
+    defaults = {
+      finder = {
+        FXDefaultSearchScope = "SCcf";
+        AppleShowAllExtensions = true;
+        FXEnableExtensionChangeWarning = false;
+        FXPreferredViewStyle = "Nlsv";
+        ShowStatusBar = true;
+        ShowPathbar = false;
+      };
+      dock = {
+        tilesize = 48;
+        orientation = "left";
+      };
+      NSGlobalDomain = {
+        "com.apple.sound.beep.volume" = 0.000;
+        InitialKeyRepeat = 13;
+        KeyRepeat = 2;
+      };
+    };
+  };
 }

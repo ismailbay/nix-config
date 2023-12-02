@@ -31,7 +31,7 @@
     darwinConfigurations.melamar = nix-darwin.lib.darwinSystem {
       system = "aarch64-darwin";
 
-      modules = [ ./machines/melamar/default.nix ];
+      modules = [ ./machines/melamar ];
     };
 
   };
