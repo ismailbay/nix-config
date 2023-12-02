@@ -1,7 +1,11 @@
-{ inputs, lib, pkgs, ... }:
 {
+  inputs,
+  lib,
+  pkgs,
+  ...
+}: {
   # TODO: separate using dotfiles/ and users/
-  
+
   services.nix-daemon.enable = true;
   nixpkgs.config.allowUnfree = lib.mkForce true;
   programs.zsh.enable = true;
@@ -11,14 +15,18 @@
     home = "/Users/ibay";
   };
 
-  home-manager.users.ibay = { pkgs, lib, inputs, config, ... }:
-  {
+  home-manager.users.ibay = {
+    pkgs,
+    lib,
+    inputs,
+    config,
+    ...
+  }: {
     programs.home-manager.enable = true;
     home.stateVersion = "23.11";
 
     fonts.fontconfig = {
       enable = true;
-
     };
 
     programs.zsh = {
@@ -28,7 +36,13 @@
       oh-my-zsh = {
         enable = true;
         plugins = [
-            "git" "vscode" "terraform" "ansible" "kubectl" "gh" "last-working-dir"
+          "git"
+          "vscode"
+          "terraform"
+          "ansible"
+          "kubectl"
+          "gh"
+          "last-working-dir"
         ];
         theme = "starship";
       };
@@ -61,7 +75,7 @@
 
     programs.starship = {
       enable = true;
-      
+
       settings = {
         add_newline = false;
         battery.disabled = true;
@@ -70,17 +84,19 @@
     };
 
     home.packages = [
-      (pkgs.nerdfonts.override { fonts = [ 
-        "FiraCode" 
-        "JetBrainsMono" 
-        "DroidSansMono" 
-        "SpaceMono" 
-        "RobotoMono" 
-        "BitstreamVeraSansMono"
-      ]; })
+      (pkgs.nerdfonts.override {
+        fonts = [
+          "FiraCode"
+          "JetBrainsMono"
+          "DroidSansMono"
+          "SpaceMono"
+          "RobotoMono"
+          "BitstreamVeraSansMono"
+        ];
+      })
     ];
   };
-  
+
   homebrew = {
     onActivation = {
       autoUpdate = true;
@@ -92,7 +108,7 @@
     brews = [
       "mas"
     ];
-    
+
     casks = [
       "rectangle"
       "sanesidebuttons"
@@ -114,6 +130,7 @@
     k9s
     zsh
     kitty
+    pre-commit
 
     # apps with gui
     monitorcontrol
