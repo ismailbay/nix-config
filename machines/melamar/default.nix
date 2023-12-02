@@ -16,6 +16,11 @@
     programs.home-manager.enable = true;
     home.stateVersion = "23.11";
 
+    fonts.fontconfig = {
+      enable = true;
+
+    };
+
     programs.zsh = {
       enable = true;
       enableAutosuggestions = true;
@@ -25,7 +30,7 @@
         plugins = [
             "git" "vscode" "terraform" "ansible" "kubectl" "gh" "last-working-dir"
         ];
-        theme = "steeef";
+        theme = "starship";
       };
     };
 
@@ -53,6 +58,27 @@
         set-option -g bell-action none
       '';
     };
+
+    programs.starship = {
+      enable = true;
+      
+      settings = {
+        add_newline = false;
+        battery.disabled = true;
+        kubernetes.disabled = false;
+      };
+    };
+
+    home.packages = [
+      (pkgs.nerdfonts.override { fonts = [ 
+        "FiraCode" 
+        "JetBrainsMono" 
+        "DroidSansMono" 
+        "SpaceMono" 
+        "RobotoMono" 
+        "BitstreamVeraSansMono"
+      ]; })
+    ];
   };
   
   homebrew = {
