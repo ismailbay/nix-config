@@ -44,7 +44,6 @@
           "gh"
           "last-working-dir"
         ];
-        theme = "starship";
       };
     };
 
@@ -131,6 +130,7 @@
     zsh
     kitty
     pre-commit
+    alejandra
 
     # apps with gui
     monitorcontrol
