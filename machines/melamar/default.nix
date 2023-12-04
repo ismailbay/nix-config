@@ -53,6 +53,12 @@
       shellIntegration = {
         enableZshIntegration = true;
       };
+      extraConfig = ''
+        adjust_line_height 105%
+        font_family FiraCode
+        font_size 14.0
+        confirm_os_window_close 0
+      '';
     };
 
     programs.tmux = {
@@ -70,6 +76,16 @@
         set-window-option -g monitor-activity off
         set-option -g bell-action none
       '';
+    };
+
+    programs.direnv = {
+      enable = true;
+    };
+
+    programs.git = {
+      enable = true;
+      userName = "Ismail Bay";
+      userEmail = "ismailbay@gmail.com";
     };
 
     programs.starship = {
@@ -126,11 +142,16 @@
     wget
     htop
     terraform
+    kubectl
     k9s
     zsh
     kitty
     pre-commit
     alejandra
+    go-task
+    ansible
+    sops
+    kubeseal
 
     # apps with gui
     monitorcontrol
