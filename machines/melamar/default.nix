@@ -113,12 +113,12 @@
   };
 
   homebrew = {
+    enable = true;
     onActivation = {
       autoUpdate = true;
       upgrade = true;
       cleanup = "zap";
     };
-    enable = true;
 
     brews = [
       "mas"
@@ -127,6 +127,7 @@
     casks = [
       "rectangle"
       "sanesidebuttons"
+      "intellij-idea-ce"
     ];
   };
 
@@ -152,6 +153,8 @@
     ansible
     sops
     kubeseal
+    kustomize
+    kubernetes-helm
 
     # apps with gui
     monitorcontrol
