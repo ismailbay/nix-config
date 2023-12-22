@@ -1,0 +1,38 @@
+{pkgs}:
+with pkgs; [
+  age
+  alejandra
+  ansible
+  btop
+  cloudflared
+  coreutils
+  direnv
+  git
+  gnupg
+  go-task
+  htop
+  iftop
+  inetutils
+  jq
+  # k9s
+  kitty
+  kubectl
+  kubernetes-helm
+  kubeseal
+  kustomize
+  meslo-lgs-nf
+  neofetch
+  neovim
+  openssh
+  pre-commit
+  pwgen
+  ripgrep
+  sops
+  terraform
+  tmux
+  tree
+  unrar
+  unzip
+  wget
+  zsh
+]

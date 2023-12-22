@@ -3,24 +3,16 @@
 ## Prerequisites
 
 * [nix](https://nixos.org/download#nix-install-macos)
-* git
-* [homebrew](https://brew.sh) or any other package manager
-
-Set hostname to match the configuration.
+* git (`xcode-select --install`)
 
 ## Build and Upgrade
 
-e.g. for host `melamar`:
-
 ```shell
-nix build .#darwinConfigurations.melamar.system
-./result/sw/bin/darwin-rebuild switch --flake .
+# build
+nix run .#build
+# or build & switch
+nix run .#build-switch
 ```
 
-## Generations
-
-```shell
-# list builds
-darwin-rebuild --list-generations
-
-```
+## Credits
+* [Nix Config for MacOS + NixOS by Dustin Lyons](https://github.com/dustinlyons/nixos-config)
