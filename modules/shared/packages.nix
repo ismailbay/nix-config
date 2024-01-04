@@ -9,6 +9,7 @@ with pkgs; [
   direnv
   git
   gnupg
+  go
   go-task
   htop
   iftop

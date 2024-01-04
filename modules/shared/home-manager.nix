@@ -32,11 +32,6 @@ in {
         . /nix/var/nix/profiles/default/etc/profile.d/nix.sh
       fi
 
-      # Define variables for directories
-      export PATH=$HOME/.pnpm-packages/bin:$HOME/.pnpm-packages:$PATH
-      export PATH=$HOME/.npm-packages/bin:$HOME/bin:$PATH
-      export PATH=$HOME/.local/share/bin:$PATH
-
       # Remove history data we don't want to see
       export HISTIGNORE="pwd:ls:cd"
 
@@ -55,6 +50,9 @@ in {
 
       # Always color ls and group directories
       alias ls='ls --color=auto'
+
+      # Add Visual Studio Code (code)
+      export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
     '';
   };
 
@@ -217,12 +215,16 @@ in {
     extraConfig = lib.mkMerge [
       ''
         Host 192.168.1.1
-        HostKeyAlgorithms +ssh-rsa
-        PubkeyAcceptedKeyTypes +ssh-rsa
+          HostKeyAlgorithms +ssh-rsa
+          PubkeyAcceptedKeyTypes +ssh-rsa
 
         Host 192.168.1.2
-        HostKeyAlgorithms +ssh-rsa
-        PubkeyAcceptedKeyTypes +ssh-rsa
+          HostKeyAlgorithms +ssh-rsa
+          PubkeyAcceptedKeyTypes +ssh-rsa
+
+        Host git.ibay.dev
+          User git
+          Port 2222
 
         Host github.com
           Hostname github.com
@@ -268,4 +270,23 @@ in {
       # TODO: find minimal but useful bindings
     '';
   };
+
+  # k9s = {
+  #   enable = true;
+  #   plugin = {
+  #     #--- Create debug container for selected pod in current namespace
+  #     debug = {
+  #       shortCut = "Shift-D";
+  #       description = "Add debug container";
+  #       scopes = ["containers"];
+  #       command = "bash";
+  #       background = false;
+  #       confirm = true;
+  #       args = [
+  #         "-c"
+  #         "kubectl debug -it -n=$NAMESPACE $POD --target=$NAME --image=nicolaka/netshoot:v0.11 --share-processes -- bash"
+  #       ];
+  #     };
+  #   };
+  # };
 }

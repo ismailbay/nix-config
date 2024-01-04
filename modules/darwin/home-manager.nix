@@ -9,7 +9,6 @@
   # Define the content of your file as a derivation
   sharedFiles = import ../shared/files.nix {inherit config pkgs;};
   additionalFiles = import ./files.nix {inherit user config pkgs;};
-  dotfiles = import ../shared/dotfiles {inherit user config pkgs;};
 in {
   imports = [
     ./dock
@@ -25,6 +24,7 @@ in {
 
   homebrew = {
     enable = true;
+    brews = ["k9s"];
     casks = pkgs.callPackage ./casks.nix {};
 
     # These app IDs are from using the mas CLI app

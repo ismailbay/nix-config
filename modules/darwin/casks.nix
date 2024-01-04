@@ -14,6 +14,7 @@ _: [
   "vlc"
 
   # Productivity Tools
+  "joplin"
 
   # Browsers
 
