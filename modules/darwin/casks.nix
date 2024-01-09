@@ -9,6 +9,7 @@ _: [
   # Utility Tools
   "rectangle"
   "sanesidebuttons"
+  "monitorcontrol"
 
   # Entertainment Tools
   "vlc"
