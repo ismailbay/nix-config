@@ -23,7 +23,7 @@ with pkgs; [
   kustomize
   meslo-lgs-nf
   neofetch
-  neovim
+  # neovim
   openssh
   pre-commit
   pwgen
