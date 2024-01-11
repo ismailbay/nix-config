@@ -36,7 +36,7 @@ in {
     #
     masApps = {
       "hidden-bar" = 1452453066;
-      "home-assistant" = 1099568401;
+      #"home-assistant" = 1099568401;
     };
   };
 
