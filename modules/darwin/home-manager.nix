@@ -75,6 +75,7 @@ in {
     {path = "/Applications/Visual Studio Code.app/";}
     {path = "/Applications/IntelliJ IDEA.app/";}
     {path = "/Applications/Nix Apps/kitty.app/";}
+    {path = "/Applications/Obsidian.app/";}
     {
       path = "/Applications";
       section = "others";
