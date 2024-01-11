@@ -16,6 +16,7 @@ _: [
 
   # Productivity Tools
   "joplin"
+  "obsidian"
 
   # Browsers
 
