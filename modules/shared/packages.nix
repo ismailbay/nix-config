@@ -24,7 +24,9 @@ with pkgs; [
   meslo-lgs-nf
   neofetch
   # neovim
+  nodejs_20
   openssh
+  nodePackages_latest.pnpm
   pre-commit
   pwgen
   ripgrep
@@ -34,6 +36,7 @@ with pkgs; [
   tree
   unrar
   unzip
+  watch
   wget
   zsh
 ]
