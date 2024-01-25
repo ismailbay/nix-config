@@ -95,7 +95,7 @@
               autoMigrate = true;
             };
           }
-          ./hosts/melamar # Mac mini M2 Pro
+          ./hosts/melamar # MacBook Pro M3 Max
         ];
       };
     };
