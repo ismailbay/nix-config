@@ -271,7 +271,7 @@ in {
           require("nvim-web-devicons").setup{}
         '';
       }
-      { 
+      {
         plugin = dashboard-nvim;
         type = "lua";
         config = ''

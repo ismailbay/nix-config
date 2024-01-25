@@ -3,10 +3,12 @@ with pkgs; [
   age
   alejandra
   ansible
+  ansible-lint
   btop
   cloudflared
   coreutils
   direnv
+  fluxcd
   git
   gnupg
   go
@@ -15,12 +17,14 @@ with pkgs; [
   iftop
   inetutils
   jq
-  # k9s
+  k0sctl
   kitty
+  kubeconform
   kubectl
   kubernetes-helm
   kubeseal
   kustomize
+  moreutils
   meslo-lgs-nf
   neofetch
   # neovim
@@ -29,8 +33,10 @@ with pkgs; [
   nodePackages_latest.pnpm
   pre-commit
   pwgen
+  python3
   ripgrep
   sops
+  stern
   terraform
   tmux
   tree
@@ -38,5 +44,6 @@ with pkgs; [
   unzip
   watch
   wget
+  yq
   zsh
 ]
