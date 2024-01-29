@@ -65,6 +65,10 @@ in {
     stateVersion = 4;
 
     defaults = {
+      trackpad = {
+        Clicking = true;
+        TrackpadThreeFingerDrag = true;
+      };
       finder = {
         FXDefaultSearchScope = "SCcf";
         AppleShowAllExtensions = true;
