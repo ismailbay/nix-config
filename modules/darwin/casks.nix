@@ -2,6 +2,7 @@ _: [
   # Development Tools
   "intellij-idea-ce"
   "visual-studio-code"
+  "podman-desktop"
 
   # Communication Tools
   "discord"
@@ -15,7 +16,6 @@ _: [
   "vlc"
 
   # Productivity Tools
-  "joplin"
   "obsidian"
 
   # Browsers
