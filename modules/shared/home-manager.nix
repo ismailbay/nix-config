@@ -53,6 +53,11 @@ in {
 
       # Add Visual Studio Code (code)
       export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+      # nix does not provide sdkman package :/
+      # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+      export SDKMAN_DIR="/Users/charper/.sdkman"
+      [[ -s "/Users/charper/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/charper/.sdkman/bin/sdkman-init.sh"
     '';
   };
 
@@ -309,5 +314,14 @@ in {
       ripgrep # Requirement for telescope
     ];
     # plugins = with pkgs.vimPlugins; [vim-airline vim-airline-themes vim-startify vim-tmux-navigator];
+  };
+
+  atuin = {
+    enable = true;
+    enableZshIntegration = true;
+    settings = {
+      sync_address = "https://sh.ismailbay.dev";
+      sync_frequency = "5m";
+    };
   };
 }
