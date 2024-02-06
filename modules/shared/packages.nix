@@ -8,6 +8,7 @@ with pkgs; [
   cloudflared
   coreutils
   direnv
+  docker-client
   fluxcd
   git
   gnupg

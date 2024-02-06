@@ -2,7 +2,8 @@ _: [
   # Development Tools
   "intellij-idea-ce"
   "visual-studio-code"
-  "podman-desktop"
+  "docker"
+  "zed"
 
   # Communication Tools
   "discord"
