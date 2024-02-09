@@ -84,6 +84,7 @@ in {
       };
       NSGlobalDomain = {
         "com.apple.sound.beep.volume" = 0.000;
+        "com.apple.keyboard.fnState" = true;
         InitialKeyRepeat = 13;
         KeyRepeat = 2;
       };
