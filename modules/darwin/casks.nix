@@ -20,6 +20,8 @@ _: [
   "obsidian"
 
   # Browsers
+  "brave-browser"
 
   # AI
+  "lm-studio"
 ]
