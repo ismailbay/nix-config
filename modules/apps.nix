@@ -1,0 +1,62 @@
+{pkgs, username, ...}: {
+  environment.systemPackages = with pkgs; [
+    neovim
+    git
+  ];
+
+  environment.variables.EDITOR = "nvim";
+
+  homebrew = {
+    enable = true;
+
+    onActivation = {
+      autoUpdate = false;
+      cleanup = "zap";
+    };
+
+    masApps = {
+      Xcode = 497799835;
+      "hidden-bar" = 1452453066;
+    };
+
+    taps = [
+      "homebrew/cask-fonts"
+      "homebrew/services"
+      "homebrew/cask-versions"
+    ];
+
+    brews = [
+      "k9s"
+    ];
+
+    casks = [
+      # Development Tools
+      "intellij-idea-ce"
+      "visual-studio-code"
+      "docker"
+      "zed"
+      "kitty"
+
+      # Communication Tools
+      "discord"
+
+      # Utility Tools
+      "rectangle"
+      "sanesidebuttons"
+      "monitorcontrol"
+
+      # Entertainment Tools
+      "vlc"
+      "jellyfin-media-player"
+
+      # Productivity Tools
+      "obsidian"
+
+      # Browsers
+      "brave-browser"
+
+      # AI
+      "lm-studio"
+    ];
+  };
+}
