@@ -87,9 +87,9 @@
         };
         "com.apple.finder" = {
           ShowExternalHardDrivesOnDesktop = true;
-          ShowHardDrivesOnDesktop = true;
-          ShowMountedServersOnDesktop = true;
-          ShowRemovableMediaOnDesktop = true;
+          ShowHardDrivesOnDesktop = false;
+          ShowMountedServersOnDesktop = false;
+          ShowRemovableMediaOnDesktop = false;
           _FXSortFoldersFirst = true;
           # When performing a search, search the current folder by default
           FXDefaultSearchScope = "SCcf";
@@ -127,7 +127,6 @@
 
       loginwindow = {
         GuestEnabled = false; # disable guest user
-        SHOWFULLNAME = true; # show full name in login window
       };
     };
   };
