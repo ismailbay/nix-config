@@ -17,6 +17,9 @@
     masApps = {
       Xcode = 497799835;
       "hidden-bar" = 1452453066;
+      "reMarkable" = 1276493162;
+      # "Microsoft Word" = 462054704;
+      # "Microsoft Excel" = 462058435;
     };
 
     taps = [
@@ -57,6 +60,9 @@
 
       # AI
       "lm-studio"
+
+      # Misc
+      "inkscape"
     ];
   };
 }
