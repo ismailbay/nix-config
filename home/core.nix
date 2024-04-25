@@ -44,6 +44,7 @@
     unzip
     watch
     wget
+    yarn
     yq
     zsh
   ];
