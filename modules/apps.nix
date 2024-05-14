@@ -34,7 +34,6 @@
 
     casks = [
       # Development Tools
-      "intellij-idea-ce"
       "visual-studio-code"
       "docker"
       "zed"
