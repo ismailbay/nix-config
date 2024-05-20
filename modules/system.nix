@@ -163,6 +163,7 @@
           "SpaceMono"
           "RobotoMono"
           "BitstreamVeraSansMono"
+          "Noto"
         ];
       })
     ];
