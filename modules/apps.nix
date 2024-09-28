@@ -64,6 +64,7 @@
 
       # Misc
       "inkscape"
+      "raspberry-pi-imager"
     ];
   };
 }
