@@ -1,7 +1,7 @@
 {...}: {
   programs.kitty = {
     enable = true;
-    theme = "Solarized Darcula";
+    themeFile = "Solarized_Darcula";
     shellIntegration = {
       enableZshIntegration = true;
     };
