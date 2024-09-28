@@ -1,4 +1,4 @@
-{...}: {
+{username,...}: {
   programs.zsh = {
     enable = true;
 
@@ -47,8 +47,8 @@
 
       # nix does not provide sdkman package :/
       # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-      export SDKMAN_DIR="/Users/charper/.sdkman"
-      [[ -s "/Users/charper/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/charper/.sdkman/bin/sdkman-init.sh"
+      export SDKMAN_DIR="/Users/${username}/.sdkman"
+      [[ -s "/Users/${username}/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/${username}/.sdkman/bin/sdkman-init.sh"
     '';
   };
 
