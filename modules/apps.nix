@@ -57,6 +57,7 @@
 
       # Browsers
       "brave-browser"
+      "google-chrome"
 
       # AI
       "lm-studio"
