@@ -19,6 +19,7 @@
     inetutils
     jq
     k0sctl
+    kind
     kubeconform
     kubectl
     kubernetes-helm
@@ -38,6 +39,7 @@
     sops
     stern
     terraform
+    tldr
     tmux
     tree
     unrar
