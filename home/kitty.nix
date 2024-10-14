@@ -10,6 +10,7 @@
       font_family FiraCode Nerd Font Mono
       font_size 14.0
       confirm_os_window_close 0
+      shell /etc/profiles/per-user/ibay/bin/tmux
     '';
   };
 }
