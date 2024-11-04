@@ -14,6 +14,7 @@
     ./k9s.nix
     ./neovim.nix
     ./atuin.nix
+    ./fzf.nix
   ];
 
   home = {
