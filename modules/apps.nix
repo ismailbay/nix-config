@@ -18,6 +18,8 @@
       Xcode = 497799835;
       "hidden-bar" = 1452453066;
       "reMarkable" = 1276493162;
+      "mattermost" = 1614666244;
+      "Microsoft Outlook" = 985367838;
       # "Microsoft Word" = 462054704;
       # "Microsoft Excel" = 462058435;
     };
