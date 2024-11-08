@@ -32,6 +32,7 @@
 
     brews = [
       "k9s"
+      "kafka"
     ];
 
     casks = [
