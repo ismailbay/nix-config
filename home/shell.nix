@@ -50,6 +50,11 @@
       export SDKMAN_DIR="/Users/${username}/.sdkman"
       [[ -s "/Users/${username}/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/${username}/.sdkman/bin/sdkman-init.sh"
     '';
+
+    initExtra = ''
+      # Setup the brew package manager for GUI apps
+      eval "$(/opt/homebrew/bin/brew shellenv)"
+    '';
   };
 
   home.shellAliases = {
