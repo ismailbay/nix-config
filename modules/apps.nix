@@ -10,8 +10,9 @@
     enable = true;
 
     onActivation = {
-      autoUpdate = false;
+      autoUpdate = true;
       cleanup = "zap";
+      upgrade = true;
     };
 
     masApps = {
@@ -33,6 +34,7 @@
     brews = [
       "k9s"
       "kafka"
+      "talhelper"
     ];
 
     casks = [
