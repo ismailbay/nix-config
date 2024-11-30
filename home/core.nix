@@ -38,6 +38,7 @@
     ripgrep
     sops
     stern
+    talosctl
     terraform
     tldr
     tmux
