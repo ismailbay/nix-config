@@ -148,19 +148,12 @@
       material-design-icons
       font-awesome
 
-      # nerdfonts
-      # https://github.com/NixOS/nixpkgs/blob/nixos-23.11/pkgs/data/fonts/nerdfonts/shas.nix
-      (nerdfonts.override {
-        fonts = [
-          "FiraCode"
-          "JetBrainsMono"
-          "DroidSansMono"
-          "SpaceMono"
-          "RobotoMono"
-          "BitstreamVeraSansMono"
-          "Noto"
-        ];
-      })
+      nerd-fonts.jetbrains-mono
+      nerd-fonts.fira-code
+      nerd-fonts.droid-sans-mono
+      nerd-fonts.space-mono
+      nerd-fonts.roboto-mono
+      nerd-fonts.noto
     ];
   };
 }
