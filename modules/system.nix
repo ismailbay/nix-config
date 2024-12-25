@@ -21,7 +21,7 @@
     '';
 
     defaults = {
-      # menuExtraClock.Show24Hour = true;  # show 24 hour clock
+      menuExtraClock.Show24Hour = true;  # show 24 hour clock
 
       # customize dock
       dock = {
@@ -45,6 +45,7 @@
         FXPreferredViewStyle = "Nlsv";
         ShowStatusBar = true;
         ShowPathbar = false;
+        NewWindowTarget = "Home";
       };
 
       # customize trackpad
@@ -62,6 +63,8 @@
 
         InitialKeyRepeat = 13;
         KeyRepeat = 2;
+
+        AppleInterfaceStyleSwitchesAutomatically = true;
 
         NSAutomaticCapitalizationEnabled = false;
         NSAutomaticDashSubstitutionEnabled = false;
@@ -88,13 +91,11 @@
           WebKitDeveloperExtras = true;
         };
         "com.apple.finder" = {
-          ShowExternalHardDrivesOnDesktop = true;
+          ShowExternalHardDrivesOnDesktop = false;
           ShowHardDrivesOnDesktop = false;
           ShowMountedServersOnDesktop = false;
           ShowRemovableMediaOnDesktop = false;
           _FXSortFoldersFirst = true;
-          # When performing a search, search the current folder by default
-          FXDefaultSearchScope = "SCcf";
         };
         "com.apple.desktopservices" = {
           # Avoid creating .DS_Store files on network or USB volumes
