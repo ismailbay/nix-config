@@ -2,8 +2,8 @@
   home.packages = with pkgs; [
     age
     alejandra
-    ansible
-    ansible-lint
+    # ansible
+    # ansible-lint
     btop
     cloudflared
     coreutils

@@ -46,7 +46,6 @@
 
       # Communication Tools
       "discord"
-      "zoom"
 
       # Utility Tools
       "rectangle"

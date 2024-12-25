@@ -148,12 +148,18 @@
       material-design-icons
       font-awesome
 
-      nerd-fonts.jetbrains-mono
-      nerd-fonts.fira-code
-      nerd-fonts.droid-sans-mono
-      nerd-fonts.space-mono
-      nerd-fonts.roboto-mono
-      nerd-fonts.noto
+      # nerd fonts
+      (nerdfonts.override {
+        fonts = [
+          "FiraCode"
+          "JetBrainsMono"
+          "DroidSansMono"
+          "SpaceMono"
+          "RobotoMono"
+          "BitstreamVeraSansMono"
+          "Noto"
+        ];
+      })
     ];
   };
 }
