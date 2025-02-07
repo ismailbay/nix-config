@@ -43,6 +43,7 @@
       "docker"
       "zed"
       "kitty"
+      "headlamp"
 
       # Communication Tools
       "discord"
