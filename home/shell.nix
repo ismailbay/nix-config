@@ -14,6 +14,7 @@
         "kubectl"
         "gh"
         "last-working-dir"
+        "macos"
       ];
     };
 

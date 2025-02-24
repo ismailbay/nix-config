@@ -2,6 +2,7 @@
   home.packages = with pkgs; [
     age
     alejandra
+    argocd
     # ansible
     # ansible-lint
     btop
@@ -20,6 +21,7 @@
     jq
     k0sctl
     kind
+    krew
     kubeconform
     kubectl
     kubernetes-helm
@@ -39,6 +41,7 @@
     sops
     stern
     talosctl
+    telepresence2
     terraform
     tldr
     tmux
@@ -48,7 +51,7 @@
     watch
     wget
     yarn
-    yq
+    yq-go
     zsh
   ];
 }
