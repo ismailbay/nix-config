@@ -32,6 +32,7 @@
     neofetch
     # neovim
     nodejs_20
+    openconnect
     openssh
     nodePackages_latest.pnpm
     pre-commit
