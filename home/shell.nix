@@ -15,6 +15,7 @@
         "gh"
         "last-working-dir"
         "macos"
+        "gradle"
       ];
     };
 

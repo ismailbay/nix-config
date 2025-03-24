@@ -15,6 +15,7 @@
     gnupg
     go
     go-task
+    gradle
     htop
     iftop
     inetutils
@@ -38,6 +39,7 @@
     pre-commit
     pwgen
     python3
+    quarkus
     ripgrep
     sops
     stern
