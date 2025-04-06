@@ -7,7 +7,6 @@
     ./core.nix
     ./git.nix
     ./starship.nix
-    ./kitty.nix
     ./ssh.nix
     ./direnv.nix
     ./tmux.nix
@@ -15,6 +14,7 @@
     ./neovim.nix
     ./atuin.nix
     ./fzf.nix
+    ./alacritty.nix
   ];
 
   home = {
