@@ -32,7 +32,6 @@
     ];
 
     brews = [
-      "k9s"
       "kafka"
       "talhelper"
     ];
@@ -42,7 +41,6 @@
       "visual-studio-code"
       "docker"
       "zed"
-      "kitty"
       "headlamp"
 
       # Communication Tools
