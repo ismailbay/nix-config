@@ -43,6 +43,7 @@
       "docker"
       "zed"
       "headlamp"
+      "jetbrains-toolbox"
 
       # Communication Tools
       "discord"
