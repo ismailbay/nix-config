@@ -66,6 +66,7 @@
 
       # AI
       "lm-studio"
+      "claude"
 
       # Misc
       "inkscape"
