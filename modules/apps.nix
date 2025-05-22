@@ -70,6 +70,12 @@
       # Misc
       "inkscape"
       "raspberry-pi-imager"
+
+      # Proton suite
+      "proton-mail"
+      "protonvpn"
+      "proton-drive"
+      "proton-pass"
     ];
   };
 }
