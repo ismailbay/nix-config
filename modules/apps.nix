@@ -39,7 +39,7 @@
     casks = [
       # Development Tools
       "visual-studio-code"
-      "docker"
+      "orbstack"
       "zed"
       "headlamp"
       "jetbrains-toolbox"
