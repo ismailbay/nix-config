@@ -69,6 +69,7 @@
       # Misc
       "inkscape"
       "raspberry-pi-imager"
+      "porting-kit"
 
       # Proton suite
       "proton-mail"
