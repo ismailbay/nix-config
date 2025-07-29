@@ -1,4 +1,4 @@
-{username,...}: {
+{username, lib, ...}: {
   programs.zsh = {
     enable = true;
 
@@ -19,7 +19,7 @@
       ];
     };
 
-    initExtraFirst = ''
+    initContent = lib.mkBefore ''
       if [[ -f /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh ]]; then
         . /nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh
         . /nix/var/nix/profiles/default/etc/profile.d/nix.sh
@@ -47,15 +47,13 @@
       # Add Visual Studio Code (code)
       export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
+      # Setup the brew package manager for GUI apps
+      eval "$(/opt/homebrew/bin/brew shellenv)"
+
       # nix does not provide sdkman package :/
       # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
       export SDKMAN_DIR="/Users/${username}/.sdkman"
       [[ -s "/Users/${username}/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/${username}/.sdkman/bin/sdkman-init.sh"
-    '';
-
-    initExtra = ''
-      # Setup the brew package manager for GUI apps
-      eval "$(/opt/homebrew/bin/brew shellenv)"
     '';
   };
 
