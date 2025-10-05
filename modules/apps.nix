@@ -70,6 +70,7 @@
       "inkscape"
       "raspberry-pi-imager"
       "porting-kit"
+      "balenaetcher"
 
       # Proton suite
       "proton-mail"
