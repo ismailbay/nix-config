@@ -7,14 +7,6 @@
         HostKeyAlgorithms +ssh-rsa
         PubkeyAcceptedKeyTypes +ssh-rsa
 
-      Host 192.168.1.2
-        HostKeyAlgorithms +ssh-rsa
-        PubkeyAcceptedKeyTypes +ssh-rsa
-
-      Host git.ibay.dev
-        User git
-        Port 2222
-
       Host github.com
         Hostname github.com
         IdentitiesOnly yes
