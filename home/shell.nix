@@ -16,6 +16,7 @@
         "last-working-dir"
         "macos"
         "gradle"
+        "opentofu"
       ];
     };
 

@@ -35,6 +35,7 @@
     nodejs_20
     openconnect
     openssh
+    opentofu
     nodePackages_latest.pnpm
     pre-commit
     pwgen
