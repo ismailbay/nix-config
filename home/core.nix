@@ -28,8 +28,9 @@
     kubernetes-helm
     kubeseal
     kustomize
-    moreutils
     meslo-lgs-nf
+    minio-client
+    moreutils
     neofetch
     # neovim
     nodejs_20
