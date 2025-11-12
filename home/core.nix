@@ -29,6 +29,7 @@
     kubeseal
     kustomize
     meslo-lgs-nf
+    minikube
     minio-client
     moreutils
     neofetch

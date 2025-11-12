@@ -1,7 +1,7 @@
 {...}: {
   programs.k9s = {
     enable = true;
-    plugin = {
+    plugins = {
       plugins = {
         #--- create swissarmy debug pod in current namespace
         swissarmy = {
