@@ -15,14 +15,9 @@
       upgrade = true;
     };
 
+    # mas failes with 26.1, wait for v4.0.0
     masApps = {
-      "Xcode" = 497799835;
-      "hidden-bar" = 1452453066;
-      "mattermost" = 1614666244;
-      "Microsoft Outlook" = 985367838;
-      "DaVinci Resolve" = 571213070;
-      # "Microsoft Word" = 462054704;
-      # "Microsoft Excel" = 462058435;
+      #"Xcode" = 497799835;
     };
 
     taps = [
@@ -51,6 +46,7 @@
       "rectangle"
       "sanesidebuttons"
       "monitorcontrol"
+      "hiddenbar"
 
       # Entertainment Tools
       "vlc"
@@ -77,6 +73,13 @@
       "protonvpn"
       "proton-drive"
       "proton-pass"
+
+      # work related stuff
+      "mattermost"
+      "microsoft-outlook"
+      "microsoft-excel"
+      "microsoft-word"
+      "microsoft-teams"
     ];
   };
 }
