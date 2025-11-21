@@ -3,9 +3,10 @@
     age
     alejandra
     argocd
-    # ansible
-    # ansible-lint
+    ansible
+    ansible-lint
     btop
+    cilium-cli
     cloudflared
     coreutils
     direnv
@@ -37,6 +38,7 @@
     nodejs_20
     openconnect
     openssh
+    openssl
     opentofu
     nodePackages_latest.pnpm
     pre-commit

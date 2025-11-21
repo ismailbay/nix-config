@@ -16,7 +16,7 @@
     };
 
     masApps = {
-      Xcode = 497799835;
+      "Xcode" = 497799835;
       "hidden-bar" = 1452453066;
       "mattermost" = 1614666244;
       "Microsoft Outlook" = 985367838;
@@ -32,7 +32,7 @@
     ];
 
     brews = [
-      "kafka"
+      # "kafka"
       "talhelper"
     ];
 
