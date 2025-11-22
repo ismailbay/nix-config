@@ -12,6 +12,7 @@
     direnv
     docker-client
     fluxcd
+    gh
     git
     gnupg
     go
@@ -51,6 +52,7 @@
     talosctl
     telepresence2
     terraform
+    terramate
     tldr
     tmux
     tree
