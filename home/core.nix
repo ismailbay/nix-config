@@ -9,6 +9,7 @@
     cilium-cli
     cloudflared
     coreutils
+    difftastic
     direnv
     docker-client
     fluxcd
@@ -37,6 +38,7 @@
     neofetch
     # neovim
     nodejs_20
+    openbao
     openconnect
     openssh
     openssl
