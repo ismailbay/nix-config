@@ -12,6 +12,7 @@
     difftastic
     direnv
     docker-client
+    docker-credential-helpers
     fluxcd
     gh
     git
