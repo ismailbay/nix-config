@@ -24,6 +24,7 @@
       "homebrew/cask-fonts"
       "homebrew/services"
       "homebrew/cask-versions"
+      "darksworm/homebrew-tap"
     ];
 
     brews = [
@@ -34,10 +35,10 @@
     casks = [
       # Development Tools
       "visual-studio-code"
-      "orbstack"
       "zed"
       "headlamp"
       "jetbrains-toolbox"
+      "argonaut"
 
       # Communication Tools
       "discord"

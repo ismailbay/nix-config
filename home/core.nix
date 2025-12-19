@@ -8,9 +8,12 @@
     btop
     cilium-cli
     cloudflared
+    colima
     coreutils
+    delta
     difftastic
     direnv
+    docker-buildx
     docker-client
     docker-credential-helpers
     fluxcd
@@ -32,6 +35,7 @@
     kubernetes-helm
     kubeseal
     kustomize
+    lazydocker
     meslo-lgs-nf
     minikube
     minio-client
