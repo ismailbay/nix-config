@@ -66,7 +66,6 @@
       # Misc
       "inkscape"
       "raspberry-pi-imager"
-      "porting-kit"
       "balenaetcher"
 
       # Proton suite
