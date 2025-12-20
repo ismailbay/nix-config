@@ -67,6 +67,7 @@
       "inkscape"
       "raspberry-pi-imager"
       "balenaetcher"
+      "prusaslicer"
 
       # Proton suite
       "proton-mail"
