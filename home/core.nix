@@ -43,7 +43,6 @@
     neofetch
     # neovim
     nodejs_20
-    openbao
     openconnect
     openssh
     openssl
