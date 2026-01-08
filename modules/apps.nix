@@ -28,8 +28,9 @@
     ];
 
     brews = [
-      # "kafka"
+      "kafka"
       "talhelper"
+      "trippy"
     ];
 
     casks = [

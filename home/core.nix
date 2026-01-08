@@ -67,6 +67,7 @@
     unzip
     watch
     wget
+    wol
     yarn
     yq-go
     zsh
