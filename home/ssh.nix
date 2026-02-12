@@ -24,6 +24,12 @@
         identitiesOnly = true;
       };
 
+      "wrwks.ghe.com" = {
+        hostname = "wrwks.ghe.com";
+        identityFile = "/Users/${username}/.ssh/id_wrwks";
+        identitiesOnly = true;
+      };
+
       "192.168.*" = {
         forwardAgent = true;
         identityFile = "/Users/${username}/.ssh/id_ed25519";
