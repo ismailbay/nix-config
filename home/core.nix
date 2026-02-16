@@ -8,7 +8,6 @@
     btop
     cilium-cli
     cloudflared
-    colima
     coreutils
     delta
     difftastic
@@ -16,6 +15,7 @@
     docker-buildx
     docker-client
     docker-credential-helpers
+    fastfetch
     fluxcd
     gh
     git
@@ -40,9 +40,7 @@
     minikube
     minio-client
     moreutils
-    neofetch
     # neovim
-    nodejs_20
     openconnect
     openssh
     openssl
@@ -56,7 +54,6 @@
     sops
     stern
     talosctl
-    telepresence2
     terraform
     terramate
     tldr
@@ -67,7 +64,6 @@
     watch
     wget
     wol
-    yarn
     yq-go
     zsh
   ];
