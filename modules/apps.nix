@@ -28,6 +28,8 @@
     ];
 
     brews = [
+      "fnox"
+      "mise"
       "kafka"
       "talhelper"
       "trippy"

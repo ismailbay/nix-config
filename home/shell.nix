@@ -51,6 +51,9 @@
       # Setup the brew package manager for GUI apps
       eval "$(/opt/homebrew/bin/brew shellenv)"
 
+      # Activate mise
+      eval "$(mise activate zsh)"
+
       # nix does not provide sdkman package :/
       # THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
       export SDKMAN_DIR="/Users/${username}/.sdkman"
