@@ -42,6 +42,7 @@
       "headlamp"
       "jetbrains-toolbox"
       "argonaut"
+      "podman-desktop"
 
       # Communication Tools
       "discord"
