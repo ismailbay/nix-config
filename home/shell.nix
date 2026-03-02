@@ -17,6 +17,7 @@
         "macos"
         "gradle"
         "opentofu"
+        "podman"
       ];
     };
 
@@ -63,5 +64,6 @@
 
   home.shellAliases = {
     k = "kubectl";
+    docker = "podman";
   };
 }

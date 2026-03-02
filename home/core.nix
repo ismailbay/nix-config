@@ -12,9 +12,9 @@
     delta
     difftastic
     direnv
-    docker-buildx
-    docker-client
-    docker-credential-helpers
+    # docker-buildx
+    # docker-client
+    # docker-credential-helpers
     fastfetch
     fluxcd
     gh

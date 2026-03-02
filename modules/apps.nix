@@ -25,14 +25,18 @@
       "homebrew/services"
       "homebrew/cask-versions"
       "darksworm/homebrew-tap"
+      "slp/krunkit"
     ];
 
     brews = [
       "fnox"
       "mise"
       "kafka"
+      "krunkit"
       "talhelper"
       "trippy"
+      "podman"
+      "podman-compose"
     ];
 
     casks = [
