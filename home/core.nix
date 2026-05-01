@@ -45,9 +45,7 @@
     openssh
     openssl
     opentofu
-    nodePackages_latest.pnpm
     pre-commit
-    pwgen
     python3
     quarkus
     ripgrep
@@ -63,7 +61,6 @@
     unzip
     watch
     wget
-    wol
     yq-go
     zsh
   ];

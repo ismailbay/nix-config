@@ -1,5 +1,6 @@
 {pkgs, ...}: {
   programs.neovim = {
+    withPython3 = true;
     enable = true;
     viAlias = true;
     vimAlias = true;

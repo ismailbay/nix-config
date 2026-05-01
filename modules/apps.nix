@@ -37,6 +37,8 @@
       "trippy"
       "podman"
       "podman-compose"
+      "pwgen"
+      "wakeonlan"
     ];
 
     casks = [
