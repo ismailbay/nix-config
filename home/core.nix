@@ -61,6 +61,7 @@
     unzip
     watch
     wget
+    yamllint
     yq-go
     zsh
   ];
