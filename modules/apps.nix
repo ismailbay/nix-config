@@ -24,8 +24,14 @@
       "homebrew/cask-fonts"
       "homebrew/services"
       "homebrew/cask-versions"
-      "darksworm/homebrew-tap"
-      "slp/krunkit"
+      {
+        name = "darksworm/homebrew-tap";
+        trusted = true;
+      }
+      {
+        name = "slp/krunkit";
+        trusted = true;
+      }
     ];
 
     brews = [
@@ -39,6 +45,7 @@
       "podman-compose"
       "pwgen"
       "wakeonlan"
+      "jira-cli"
     ];
 
     casks = [
