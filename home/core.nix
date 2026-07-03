@@ -14,7 +14,7 @@
     direnv
     # docker-buildx
     # docker-client
-    # docker-credential-helpers
+    docker-credential-helpers
     fastfetch
     fluxcd
     gh
