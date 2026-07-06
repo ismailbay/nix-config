@@ -32,6 +32,10 @@
         name = "slp/krunkit";
         trusted = true;
       }
+      {
+        name = "skyhook-io/tap";
+        trusted = true;
+      }
     ];
 
     brews = [
@@ -46,6 +50,7 @@
       "pwgen"
       "wakeonlan"
       "jira-cli"
+      "commitizen"
     ];
 
     casks = [
@@ -56,6 +61,7 @@
       "jetbrains-toolbox"
       "argonaut"
       "podman-desktop"
+      "radar-desktop"
 
       # Communication Tools
       "discord"
